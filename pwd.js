@@ -1,4 +1,4 @@
-module.exports=function pwd(text){
+module.exports=function pwd(){
         process.stdout.write(`Current directory: ${process.cwd()}`);
-
+        process.stdout.write('\nprompt > ');
 }
