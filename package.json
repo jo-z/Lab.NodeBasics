@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jo-z/Lab.NodeBasics/issues"
   },
-  "homepage": "https://github.com/jo-z/Lab.NodeBasics#readme"
+  "homepage": "https://github.com/jo-z/Lab.NodeBasics#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
