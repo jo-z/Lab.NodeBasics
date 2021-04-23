@@ -4,7 +4,7 @@ module.exports=function cat(file){
         if (err) throw err;
         else {
             process.stdout.write(data);
-            process.stdout.write('\nprompt > ');
         }
     });
+    process.stdout.write('\nprompt > ');
 }
