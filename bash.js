@@ -1,5 +1,6 @@
 const pwd=require('./pwd.js');
 const ls=require('./ls');
+const cat=require('./cat');
 const curl=require('./curl');
 process.stdout.write('prompt > ');
 process.stdin.on('data', (data) => {
