@@ -1,0 +1,23 @@
+{
+  "name": "lab.nodebasics",
+  "version": "1.0.0",
+  "description": "node bash clone workshop",
+  "main": "bash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jo-z/Lab.NodeBasics.git"
+  },
+  "keywords": [
+    "gracehopper",
+    "workshop"
+  ],
+  "author": "Josephine Bartholoma & Fiora Wise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jo-z/Lab.NodeBasics/issues"
+  },
+  "homepage": "https://github.com/jo-z/Lab.NodeBasics#readme"
+}
