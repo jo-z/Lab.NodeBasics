@@ -3,16 +3,11 @@ const ls=require('./ls')
 process.stdout.write('prompt > ');
 process.stdin.on('data', (data) => {
     const cmd = data.toString().trim();
-    switch (cmd){
-    case "pwd":
-         pwd();
-         break;
-    case "ls":
-        ls();
-        break;
-    default:
+    if (cmd === 'pwd') pwd();
+    else if (cmd === 'ls') ls();
+    else if (cmd.slice(0,3) === 'cat') cat(cmd.slice(4))
+    else { 
         process.stdout.write('You typed: ' + cmd);
-        break;
+        process.stdout.write('\nprompt > ');
     }
-
 });
